@@ -1,0 +1,82 @@
+.transperant-color-nav{
+  /* background-color: #f7c114; */
+  background-color: rgba(54, 25, 25, .00000);
+  /* color: white !important; */
+}
+
+.opaque-color-nav{
+  /* background-color: #f7c114; */
+  background-color: #f7c114;
+}
+
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
+.NavContent{
+  padding-top: 15px !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+  font-size: 15px;
+}
+
+.navbar {
+  min-height: 60px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+/* @media (min-width: 768px) {
+  .navbar-nav > li > a {
+    (80px - line-height of 27px) / 2 = 26.5px
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+} */
+
+@media only screen and (max-width:1100px){
+  .navbar-nav{
+    justify-content: center;
+  }
+
+  .navbar-collapse{
+    display: flex;
+    justify-content: center;
+  }
+
+  #DesktopNav{
+    display: none;
+  }
+
+  .MobileNav{
+    display: visible;
+  }
+}
+
+@media only screen and (min-width:1100px){
+  #MobileNav{
+    display: none;
+  }
+
+  #DesktopNav{
+    display: visible;
+  }
+}
+
+.Transperant{
+  opacity: 0;
+  color: black;
+}

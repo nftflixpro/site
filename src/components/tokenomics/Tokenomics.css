@@ -1,0 +1,60 @@
+.Tokenomics{
+    text-align: center;
+    /* margin-left: %;
+    margin-right: 7%; */
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.TokenomicsContent{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+#TokenomicsChart{
+    width: 400px;
+    height: 400px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TokenomicsKey{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.TokenomicsKeyValues{
+    display: flex;
+}
+
+.TokenomicsColor{
+    height:20px;
+    width: 20px;
+}
+
+@media only screen and (max-width:1024px){
+    .TokenomicsContent{
+        display: flex;
+        justify-content: center;
+    }
+
+    #TokenomicsChart{
+        width: 300px;
+        height: 300px;
+    }
+
+    #TokenomicsTemp{
+        flex-direction: column;
+    }
+}

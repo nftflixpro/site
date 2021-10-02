@@ -1,0 +1,27 @@
+@media only screen and (min-width: 720px) {
+    #desktopRoadmap{
+        display: block;
+    }
+    #MobileRoadmap{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #desktopRoadmap{
+        display: none;
+    }
+    #MobileRoadmap{
+        display: block;
+    }
+    .MuiTimelineItem-missingOppositeContent:before{
+        flex: none !important;
+    }
+}
+
+.RoadmapDot{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    background-color:#f7c114;
+}

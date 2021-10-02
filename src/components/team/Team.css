@@ -1,0 +1,160 @@
+.Team{
+    text-align: center;
+    /* margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px; */
+    background-color: black;
+    color: black;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.TeamMembers{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.TeamDetails{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.TeamImg{
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    padding: 2px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.TeamIcon{
+    width: auto;
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 1024px){
+    /* .TeamMembers{
+        flex-direction:column;
+    } */
+
+    /* .TeamDetails{
+        margin-left: 10px;
+        margin-right: 10px;
+    } */
+}
+
+/* 
+
+.box-profile{
+    width: 350px;
+    height: 382px;
+    background-color: white;
+    border-radius: 15px;
+}
+.header-profile{
+    height: 150px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.picture-profile{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: -55px;
+
+}
+.border-profile{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+
+}
+.picture-profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.info-profile{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.personal-infos-profile{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    justify-content: center;
+}
+.personal-infos-profile span{
+ color: #969696;
+ font-size: 18px;
+ 
+}
+.personal-infos-profile h3{
+color: #2D3248;
+font-size: 18px;
+}
+.country-profile{
+    margin-top: 10px;
+    color: #969696;
+    font-size: 14px;
+}
+.stats-profile{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 65px;
+    box-shadow: 0px -0.01rem hsl(0deg 0% 59%);
+}
+.stats-profile h3{
+    color: #404A61;
+    font-size: 18px;
+}
+.stats-profile p{
+    color: #90929B;
+    font-size: 10px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.stats-profile p , .stats-profile h3 {
+    text-align: center;
+}
+.stats-followers-profile,
+ .stats-likes-profile, 
+ .stats-photos-profile{
+margin-top: 30px;
+} */

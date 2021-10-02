@@ -1,0 +1,101 @@
+.Features{
+    text-align: left;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding: 15px;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    margin-top: 30px;
+}
+
+.FeaturesBox{
+    text-align: left;
+    margin: auto;
+    max-width: 1100px;
+
+    display: block;
+    /* flex-wrap: wrap; */
+    padding: 15px;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    margin-top: 30px;
+}
+
+
+.FeatureHeading{
+    text-align: left;
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+
+    /* flex-wrap: wrap; */
+    padding: 15px;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    margin-top: 30px;
+}
+
+.FeaturesList{
+    /* display: inline-grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* @media only screen and (max-width: 1440px) {
+    .FeaturesList{
+        display: inline-grid;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3px;
+    }
+} */
+
+@media only screen and  (max-width: 720px) {
+    /* .FeaturesList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+
+    .FeatureContainer{
+        flex-wrap: wrap;
+    }
+}
+.FeatureContent{
+    /* margin-top: 15px;
+    margin-left: 10px ;
+    margin-right: 10px; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.FeatureContainer:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: default;
+}
+
+.FeatureContainer{
+    /* border-style: dashed; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 15px;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.FeaturesImg{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
